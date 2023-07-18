@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rio Hotel</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Noto+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="imgs/brasa.png" alt="#" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="show-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Início <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hotel">Hotel</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Quartos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#room">Simples</a>
+                                <a class="dropdown-item" href="#room">Duplo</a>
+                                <a class="dropdown-item" href="#room">Triplo</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#room">Suíte</a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contato</a>
+                        </li>
+                        <li class="nav-item book d-flex align-items-center">
+                            <a class="nav-link" href="#">Reserva</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <header id="home">
+            <div class="small-container">
+              <div class="row">
+                    <div class="col-lg-4 col-12 lobster-font-family d-flex align-items-center">
+                        <h1 class="text-capitalize">Bem Vindo ao <br>Rio hotel<br></h1>
+                        <button><a href="#">Informações</a></button>
+                    </div>
+                </div>
+                <div class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center">
+                    <div id="headerslider" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item carousel-three active"></div>
+                        <div class="carousel-item carousel-two"></div>
+                        <div class="carousel-item carousel-one"></div>
+                      </div>
+                      <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+                        <i class="fas fa-angle-double-left"></i>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+                        <i class="fas fa-angle-double-right"></i>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="st-rec"></div>
+            <div class="rd-rec"></div>
+        </header>
+        
+        <div class="about lobster-font-family">
+            <div class="container">
+                <h2 class="text-center text-capitalize" id="hotel">Nosso Hotel</h2>
+                <img src="imgs/shape.png">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <h4>Um lugar incrível para conhecer</h4>
+                        <p> Com uma localização estratégica na cidade maravilhosa,rica em belezas naturais, prédios históricos, museus, praias, você poderá desfrutar de diversas atrações cariocas. Além disso, oferece uma estrutura pronta para você receber toda a sua família.</p>
+                        <button><a href="#">Reserve</a></button>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="img"></div>
+                    </div>
+                </div>
+                <h2 class="text-capitalize" id="room">Quartos & Suítes</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="img"></div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="block">
+                            <div>
+                                <img src="imgs/shape.png">
+                                <strong>R$199</strong>
+                                <h5>Padrão</h5>
+                                <p>Os quartos possuem uma estrutura pronta para você receber toda a sua família, são equipados com ar condicionado, wi-fi, frigobar, secador de cabelo e espelho de maquiagem, além de hidromassagem. O restaurante oferece café da manhã, almoço e jantar para tornar sua hospedagem ainda mais confortável.</p>
+                                <button><a href="#" class="text-capitalize">Saiba Mais</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gallery lobster-font-family" id="blog">
+            <div class="container">
+                <h2 class="text-calitalize text-center">Galeria</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <center><h1 class="text-capitalize">Piscina</h1></center>
+                        <div class="pic-one"></div>
+
+                        <center><h1 class="text-capitalize">Restaurante</h1></center>
+                        <div class="pic-two"></div>
+                        
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <center><h1 class="text-capitalize">Lazer</h1></center>
+                        <div class="pic-three active"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <center><h1 class="text-capitalize">Entrada</h1></center>
+                        <div class="pic-four"></div>
+                        <center><h1 class="text-capitalize">Sala de Descanso</h1></center>
+                        <div class="galeria foto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider main-font-family">
+            <h2 class="text-center text-capitalize main-font-family">Avaliações Dos Nossos Hóspedes</h2>
+          <div id="slideToNext" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#slideToNext" data-slide-to="0" class="active"></li>
+              <li data-target="#slideToNext" data-slide-to="1"></li>
+              <li data-target="#slideToNext" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/opiniao1.jpg">
+                  <h5>Tainá Paixão</h5>
+                  <p>"O hotel é extremamente agradável. Os quartos são muitos limpos e confortáveis. 
+A localização do hotel é excelente. Boa acomodação e café da manhã excelente.
+Simplesmente maravilhoso e a equipe muito receptiva e simpática"</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/opiniao2.jpg">
+                  <h5>Yago Mateus</h5>
+                  <p>"Posso começar falando da vista imensurável do Rio, uma linda sacada para se deliciar com esse fantástico cartão postal. Realmente uma experiência única que nos deixava cada vez mais encantados pelo lugar"
+                </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/opiniao3.jpg">
+                  <h5>Érika de Souza</h5>
+                  <p>"um dos melhores hotéis do mundo. Absolutamente lindo - grande, os quartos bem equipados com vistas fantásticas do Rio de Janeiro. Tudo maravilhoso e muito relaxante, eu me senti literalmente em casa"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact main-font-family text-center">
+            <div class="container">
+                <h2 id="contact">Entre em Contato</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="contact-form">
+                            <form>
+                                <input type="text" placeholder="Nome">
+                                <input type="email" placeholder="E-mail">
+                                <input type="text" placeholder="Celular">
+                                <textarea placeholder="Descrição"></textarea>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h2 class="text-right">Guarde na memória uma experiência para sempre!!Não tem como resistir!!!</h2>
+                        <img src="imgs/vector.png">
+                    </div>
+                  </div>
+            </div>
+            <div></div>
+        </div>
+        
+        <footer class="noto-font-family">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3>Sobre</h3>
+                            <ul class="text-capitalize">
+                                <li><a href="#">Cultura</a></li>
+                                <li><a href="#">Acessibilidade</a></li>
+                                <li><a href="#">Conheça o Rio</a></li>
+                                <li><a href="#">Regras</a></li>
+                                <li><a href="#">Eventos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3>Localização</h3>
+                            <p>Rua Santa Tereza, 145<br>
+                                Rio de Janeiro, RJ<br>
+                                +55 (21) 9999-1234<br>
+                                +55 (21) 9988-1222<br>
+                                riohotel@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 form">
+                            <h3>Promoções</h3>
+                            <form>
+                                <input type="email" placeholder="E-mail">
+                                <input type="submit">
+                            </form>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="copyright noto-font-family">
+            <p>© 2023 Todos os Direitos Reservados. Design de André Isaque</p>
+        </div>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(function () {
+                
+                'use strict';
+                
+                var winH = $(window).height();
+                
+                $('header').height(winH);
+                
+                $('.navbar ul.navbar-nav li a').on('click', function (e) {
+                    
+                    var getAttr = $(this).attr('href');
+                    
+                    e.preventDefault();
+                    $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
+                });
+            });
+        </script>
+    </body>
+</html>
